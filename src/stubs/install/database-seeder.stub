@@ -1,0 +1,33 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use \Zoolflat\Zoolflat\Zoolflat\Traits\ZoolflatSeederTrait as ZoolflatSeeder;
+
+class DatabaseSeeder extends Seeder
+{
+    use ZoolflatSeeder;
+
+
+    /**
+     * Seed the application's database.
+     *
+     * @return void
+     */
+    public function run()
+    {
+         // $this->call(UsersTableSeeder::class);
+
+        /*
+         * loop on Zoolflat modules
+         * get seeders and call them
+         * this important for if you fresh , refresh
+         * data base your columns and your details
+         * will not lose
+         */
+
+        $this->getZoolflatSeeder();
+
+    }
+
+DummyName
+}

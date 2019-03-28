@@ -1,0 +1,39 @@
+{
+    "name": "zoolflat/zoolflat",
+    "description": "zoolflat CRUD & cms package full Admin Panel and RestApi Power by DetaElect :) ",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Eltayeb Hassan - Deta Elect",
+            "email": "Elteyab.Hassan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravelcollective/html":"^5.4.0",
+        "mcamara/laravel-localization": "^1.3",
+        "chumper/zipper": "1.0.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoolflat\\Zoolflat\\": "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "orchestra/testbench-browser-kit": "~3.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zoolflat\\Zoolflat\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zoolflat\\Zoolflat\\Providers\\ZoolflatServiceProvider"
+            ]
+        }
+    }
+}
