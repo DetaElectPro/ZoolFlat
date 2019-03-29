@@ -1,6 +1,7 @@
 {
     "name": "zoolflat/zoolflat",
-    "description": "zoolflat CRUD & cms package full Admin Panel and RestApi Power by DetaElect :) ",
+    "description": "zoolflat A Full CRUD generator & Admin Panel and RestApi Power by DetaElect",
+    "keywords": ["laravel-restapi", "restapi", "zoolflat", "admin-panel", "laravel-admin", "laravel-crud-generator", "artisan-command", "laravel-package", "crud", "testing"],
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
